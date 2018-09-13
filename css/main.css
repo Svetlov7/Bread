@@ -1,0 +1,330 @@
+@charset "UTF-8";
+@font-face {
+  font-family: OSB;
+  src: url(../fonts/OpenSans/OpenSansBold/OpenSansBold.eot?) format("eot"), url(../fonts/OpenSans/OpenSansBold/OpenSansBold.woff) format("woff"), url(../fonts/OpenSans/OpenSansBold/OpenSansBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: OSBL;
+  src: url(../fonts/OpenSans/OpenSansBoldItalic/OpenSansBoldItalic.eot?) format("eot"), url(../fonts/OpenSans/OpenSansBoldItalic/OpenSansBoldItalic.woff) format("woff"), url(../fonts/OpenSans/OpenSansBoldItalic/OpenSansBoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: OSEB;
+  src: url(../fonts/OpenSans/OpenSansExtraBold/OpenSansExtraBold.eot?) format("eot"), url(../fonts/OpenSans/OpenSansExtraBold/OpenSansExtraBold.woff) format("woff"), url(../fonts/OpenSans/OpenSansExtraBold/OpenSansExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: OSEBI;
+  src: url(../fonts/OpenSans/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot?) format("eot"), url(../fonts/OpenSans/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.woff) format("woff"), url(../fonts/OpenSans/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: OSI;
+  src: url(../fonts/OpenSans/OpenSansItalic/OpenSansItalic.eot?) format("eot"), url(../fonts/OpenSans/OpenSansItalic/OpenSansItalic.woff) format("woff"), url(../fonts/OpenSans/OpenSansItalic/OpenSansItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: OSL;
+  src: url(../fonts/OpenSans/OpenSansLight/OpenSansLight.eot?) format("eot"), url(../fonts/OpenSans/OpenSansLight/OpenSansLight.woff) format("woff"), url(../fonts/OpenSans/OpenSansLight/OpenSansLight.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: OSLI;
+  src: url(../fonts/OpenSans/OpenSansLightItalic/OpenSansLightItalic.eot?) format("eot"), url(../fonts/OpenSans/OpenSansLightItalic/OpenSansLightItalic.woff) format("woff"), url(../fonts/OpenSans/OpenSansLightItalic/OpenSansLightItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: OSR;
+  src: url(../fonts/OpenSans/OpenSansRegular/OpenSansRegular.eot?) format("eot"), url(../fonts/OpenSans/OpenSansRegular/OpenSansRegular.woff) format("woff"), url(../fonts/OpenSans/OpenSansRegular/OpenSansRegular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: OSRI;
+  src: url(../fonts/OpenSans/OpenSansRegularItalic/OpenSansRegularItalic.eot?) format("eot"), url(../fonts/OpenSans/OpenSansRegularItalic/OpenSansRegularItalic.woff) format("woff"), url(../fonts/OpenSans/OpenSansRegularItalic/OpenSansRegularItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: OSSB;
+  src: url(../fonts/OpenSans/OpenSansSemiBold/OpenSansSemiBold.eot?) format("eot"), url(../fonts/OpenSans/OpenSansSemiBold/OpenSansSemiBold.woff) format("woff"), url(../fonts/OpenSans/OpenSansSemiBold/OpenSansSemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: OSSBI;
+  src: url(../fonts/OpenSans/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot?) format("eot"), url(../fonts/OpenSans/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.woff) format("woff"), url(../fonts/OpenSans/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.ttf) format("truetype");
+}
+
+.section_home-experience {
+  margin-left: -7.01389vw;
+  margin-right: -7.01389vw;
+  background-size: cover;
+  padding: 10px 0;
+  margin-top: 90px;
+}
+
+@media only screen and (max-width: 980px) {
+  .section_home-experience {
+    padding: 10px 40px !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+.section_home-experience .container {
+  margin: 35px auto 28px;
+}
+
+@media only screen and (min-width: 1400px) {
+  .section_home-experience {
+    margin-left: -11.875vw;
+    margin-right: -11.875vw;
+  }
+}
+
+.section_home-experience h3 {
+  color: #fff;
+  text-align: center;
+  text-transform: none;
+  font-family: OSEB;
+  font-size: 45px;
+}
+
+@media only screen and (max-width: 480px) {
+  .section_home-experience h3 {
+    font-size: 30px;
+  }
+}
+
+.section_home-experience .home-experience_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 45px;
+}
+
+@media only screen and (max-width: 940px) {
+  .section_home-experience .home-experience_wrapper {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
+
+.section_home-experience .home-experience_wrapper .experience_item {
+  width: 28%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 33px 0;
+}
+
+@media only screen and (max-width: 940px) {
+  .section_home-experience .home-experience_wrapper .experience_item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .section_home-experience .home-experience_wrapper .experience_item {
+    width: 26%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .section_home-experience .home-experience_wrapper .experience_item {
+    width: 40%;
+    margin: 25px 0;
+  }
+}
+
+.section_home-experience .home-experience_wrapper .experience_item p {
+  color: #fff;
+  line-height: 22px;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 940px) {
+  .section_home-experience .home-experience_wrapper .experience_item p {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .section_home-experience .home-experience_wrapper .experience_item p {
+    font-size: 16px;
+  }
+}
+
+.section_home-experience .home-experience_wrapper .experience_item p span {
+  font-size: 35px;
+  font-family: OSSB;
+}
+
+@media only screen and (max-width: 767px) {
+  .section_home-experience .home-experience_wrapper .experience_item p span {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .section_home-experience .home-experience_wrapper .experience_item p span {
+    font-size: 25px;
+  }
+}
+
+.section_home-experience .home-experience_wrapper .experience_item-1 img {
+  width: 70px;
+}
+
+@media only screen and (max-width: 480px) {
+  .section_home-experience .home-experience_wrapper .experience_item-1 img {
+    width: 80px;
+  }
+}
+
+.section_home-experience .home-experience_wrapper .experience_item-1 p {
+  padding-right: 22%;
+}
+
+@media only screen and (max-width: 940px) {
+  .section_home-experience .home-experience_wrapper .experience_item-1 p {
+    padding-right: 0;
+  }
+}
+
+.section_home-experience .home-experience_wrapper .experience_item-2 img {
+  width: 80px;
+}
+
+.section_home-experience .home-experience_wrapper .experience_item-2 p {
+  margin-left: 12px;
+}
+
+.section_home-experience .home-experience_wrapper .experience_item-3 img {
+  width: 65px;
+}
+
+.section_home-experience .home-experience_wrapper .experience_item-3 p {
+  padding-right: 21%;
+  margin-left: 28px;
+}
+
+@media only screen and (max-width: 940px) {
+  .section_home-experience .home-experience_wrapper .experience_item-3 p {
+    padding-right: 0;
+    margin-left: 0;
+  }
+}
+
+.section_home-experience .home-experience_wrapper .experience_item-4 img {
+  width: 65px;
+}
+
+.section_home-experience .home-experience_wrapper .experience_item-4 p {
+  padding-right: 22%;
+}
+
+@media only screen and (max-width: 940px) {
+  .section_home-experience .home-experience_wrapper .experience_item-4 p {
+    padding-right: 0;
+  }
+}
+
+.section_home-experience .home-experience_wrapper .experience_item-5 img {
+  width: 70px;
+}
+
+.section_home-experience .home-experience_wrapper .experience_item-5 p {
+  padding-right: 5%;
+}
+
+@media only screen and (max-width: 940px) {
+  .section_home-experience .home-experience_wrapper .experience_item-5 p {
+    padding-right: 0;
+  }
+}
+
+.section_home-experience .home-experience_wrapper .experience_item-6 img {
+  width: 75px;
+}
+
+.section_home-experience .home-experience_wrapper .experience_item-7 img {
+  width: 75px;
+}
+
+@media only screen and (max-width: 480px) {
+  .section_home-experience .home-experience_wrapper .experience_item-7 img {
+    width: 90px;
+  }
+}
+
+.section_home-experience .home-experience_wrapper .experience_item-8 img {
+  width: 77px;
+}
+
+@media only screen and (max-width: 480px) {
+  .section_home-experience .home-experience_wrapper .experience_item-9 {
+    margin: 33px auto 0;
+  }
+}
+
+.section_home-experience .home-experience_wrapper .experience_item-9 img {
+  width: 90px;
+}
+
+@media only screen and (max-width: 480px) {
+  .section_home-experience .home-experience_wrapper .experience_item-9 img {
+    width: 105px;
+  }
+}
+
+.section_home-experience .home-experience_wrapper .experience_item-9 p {
+  margin-left: 10px;
+  padding-right: 5%;
+}
+
+@media only screen and (max-width: 940px) {
+  .section_home-experience .home-experience_wrapper .experience_item-9 p {
+    padding-right: 0;
+    margin-left: 0;
+  }
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.bg_video-content {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Cкрываем первый таб */
+.first-it-sl.hidden {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
